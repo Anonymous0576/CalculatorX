@@ -1,0 +1,26 @@
+{
+"name": "scientific-engineering-calculator",
+"version": "1.0.0",
+"description": "A modern 3D glassmorphic Scientific & Engineering Calculator web application with SI unit prefixes, DEG/RAD modes, and keyboard support.",
+"main": "index_calc.html",
+"scripts": {
+"start": "npx serve ."
+},
+"keywords": [
+"calculator",
+"scientific-calculator",
+"engineering-calculator",
+"si-prefixes",
+"glassmorphism",
+"html5",
+"css3",
+"javascript"
+],
+"author": "",
+"license": "MIT",
+"features": {
+"modes": ["DEG", "RAD", "STANDARD", "ENGINEERING"],
+"siPrefixes": ["p", "n", "µ", "m", "k", "M", "G", "T"],
+"keyboardSupport": true
+}
+}
